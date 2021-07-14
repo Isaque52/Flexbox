@@ -1,0 +1,15 @@
+.navbar{
+    border: dotted;
+    color: black;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+} 
+
+.topleft{
+    display:inline-flex
+}
