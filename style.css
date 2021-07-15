@@ -1,15 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .navbar{
     border: dotted;
     color: black;
     background-color: black;
-
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+    justify-content: center;
+    
     
 } 
 
-.topleft{
-    display:inline-flex
+main{
+    
+    display: flex;
+    justify-content:space-evenly;
+    height: 80%;
+    padding: 5px;
+
 }
+
+.box{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content:space-between;
+    
+    
+    
+    
+}
+
+.panel{
+    height: 30%;
+    border: 2px solid black;
+}
+
+.side{
+    width: 30%;
+    display: flex;
+    display: inline-block;
+    border: solid black;
+   
+
+}
+
+
+
+
